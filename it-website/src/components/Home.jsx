@@ -8,6 +8,9 @@ import img1 from './pictures/Rectangle 12.png'
 import img2 from './pictures/Rectangle 13.png'
 import img3 from './pictures/Rectangle 14.png'
 import img4 from './pictures/Rectangle 15.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMoneyBillWave, faUser, faCog, faBolt } from '@fortawesome/free-solid-svg-icons';
+import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 const Home = () => {
   return (
     <div>
@@ -157,14 +160,57 @@ const Home = () => {
     </div>
 
     {/*images and text section*/}
-    <div className="bg-black pt-44 ">
-        <div className='flex flex-row justify-evenly gap-3'>
-           <img src={img1} alt="" />
-           <img src={img2} alt="" />
-           <img src={img3} alt="" />
-           <img src={img4} alt="" />
+    <div className="bg-black pt-44 w-full ">
+        <div className='flex flex-row justify-between gap-1'>
+           <img src={img1} alt=""  className='w-[35vh] h-[50vh]'/>
+           <img src={img2} alt=""  className='w-[35vh] h-[50vh]' />
+           <img src={img3} alt="" className='w-[35vh] h-[50vh]'/>
+           <img src={img4} alt="" className='w-[35vh] h-[50vh]'/>
+        </div>
+        <div className='text-white w-1/2 p-10 text'> 
+            <h1 className='text-4xl foont-semibold'>We specialize in delivering cutting edge
+IT services tailored to meet the unique
+needs of businesses across industries.
+Our expert team is dedicated to
+providing comprehensive solutions that
+drive efficiency, enhance security, and
+foster innovation.</h1>
+<p className='underline mt-8'> Pay your external workforce in one click.</p>
+        </div>
+
+        <div className='flex flex-row justify-evenly text-center gap-10'>
+        <p className='text-white flex flex-col text-3xl gap-y-4 font-bold' ><FontAwesomeIcon icon={faCog} className="text-4xl text-white flex flex-col" />  12 Services</p>
+        <p className='text-white flex flex-col text-3xl gap-y-4 font-bold'> <FontAwesomeIcon icon={faBolt} className="text-5xl text-white" />200+ Projects </p> 
+        <p className='text-white flex flex-col text-3xl gap-y-4 font-bold'><FontAwesomeIcon icon={faMoneyBillWave} className="text-4xl t ext-white" /> $200k+ Revenue </p> 
+        <p className='text-white flex flex-col text-3xl gap-y-4 font-bold'> <FontAwesomeIcon icon={faUser} className="text-4xl text-white" />300+ Happy Clients</p> 
+    </div>
+    
+    </div>
+
+
+     {/*Text section*/}
+     <div className='text-center font-semibold text-4xl my-20'>
+    <h1>Don t just take our word for it..</h1>
+    <div className='flex justify-center items-center mt-4'>
+        <p className='border-b-4 border-primary w-1/4'></p>
+        <div className='flex ml-2 gap-2'>
+            <span className='h-3 w-3 bg-primary rounded-full inline-block mr-1'></span>
+            <span className='h-3 w-3 bg-primary rounded-full inline-block mr-1'></span>
+            <span className='h-3 w-3 bg-primary rounded-full inline-block'></span>
         </div>
     </div>
+    </div>
+
+
+    {/* left and rihgt */}
+    <div className='flex flex-row justify-between px-10'>
+    <FontAwesomeIcon icon={faArrowLeft} size="2x" />
+    <FontAwesomeIcon icon={faArrowRight} size="2x" />
+    </div>
+
+
+
+  
 
 
 
