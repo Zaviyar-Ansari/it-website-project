@@ -8,9 +8,12 @@ import img1 from './pictures/Rectangle 12.png'
 import img2 from './pictures/Rectangle 13.png'
 import img3 from './pictures/Rectangle 14.png'
 import img4 from './pictures/Rectangle 15.png'
+import userimg from './pictures/Group.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoneyBillWave, faUser, faCog, faBolt } from '@fortawesome/free-solid-svg-icons';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faStar} from '@fortawesome/free-solid-svg-icons';
+
 const Home = () => {
   return (
     <div>
@@ -20,12 +23,12 @@ const Home = () => {
         </div>
         {/*main image text section */}
         <div className='absolute top-60 ml-10 left-0 text-white w-[130vh] '>
-            <h1 className='text-center text-5xl font-bold mb-20'>Empowering Your Business with IT <br /> Innovation</h1>
-            <p className='text-xl mb-20 text-center'>We specialize in delivering cutting-edge IT services tailored to meet the unique needs of <br />
+            <h1 className='text-center text-5xl flex justify-start font-bold mb-20'>Empowering Your Business with IT <br /> Innovation</h1>
+            <p className='text-xl mb-20 text-center flex justify-start'>We specialize in delivering cutting-edge IT services tailored to meet the unique needs of <br />
             businesses across industries. Our expert team is dedicated to providing comprehensive <br />
             solutions that drive efficiency, enhance security, and foster innovation.</p>
 
-            <div className='flex flex-row justify-center gap-20'>
+            <div className='flex flex-row justify-start ml-32 gap-20'>
                 <button className='bg-primary py-3 px-8 text-xl'>
                     Book a Demo
                 </button>
@@ -76,7 +79,7 @@ const Home = () => {
     {/*imgae and test section*/}
     <div className='flex flex-row p-10'>
         <div className='w-1/2'>
-            <img src={person1} alt="" />
+            <img src={person1} alt=""/>
         </div>
         <div className='w-1/2 px-10'>
             <h1 className='text-4xl font-extrabold mb-10'>The Fastest Hiring And Payments </h1>
@@ -151,16 +154,21 @@ const Home = () => {
         
     </div>
 
-    {/*text section */}
-    <div className='bg-primary1 px-16 mx-20 py-8'>
-        <h1 className='font-bold text-2xl mb-5'>THAT LOT</h1>
-        <p className='text-2xl mb-6'>Give your company a faster, more agile way to work with freelancers and contractors. Find contract <br /> and
-        pay yor external workforce in one click, eith 100% compliance.</p>
-        <button className='text-white bg-black p-5 '>BOOL A DEMO</button>
-    </div>
+   {/*text section */}
+<div className='bg-primary1 px-16 mx-12 py-8 mb-20'>
+  <h1 className='font-bold text-2xl mb-5'>THAT LOT</h1>
+  <p className='text-2xl mb-6'>
+    Give your company a faster, more agile way to work with freelancers and contractors. Find contract <br /> and
+    pay your external workforce in one click, with 100% compliance.
+  </p>
+  <div className='flex justify-end'>
+    <button className='text-white bg-black px-8 py-4'>BOOK A DEMO</button>
+  </div>
+</div>
+
 
     {/*images and text section*/}
-    <div className="bg-black pt-44 w-full ">
+    <div className="bg-black pt-44 w-full mb-20 pb-20">
         <div className='flex flex-row justify-between gap-1'>
            <img src={img1} alt=""  className='w-[35vh] h-[50vh]'/>
            <img src={img2} alt=""  className='w-[35vh] h-[50vh]' />
@@ -208,10 +216,92 @@ foster innovation.</h1>
     <FontAwesomeIcon icon={faArrowRight} size="2x" />
     </div>
 
+    {/*Review section */}
+<div className='flex flex-row justify-center gap-10 px-28 mb-28 mt-10'>
+              {/*1rd review*/}
 
+<div className='shadow-2xl'>
+    <div className='flex flex-rows justify-between items-center'>
+        <div >
+        <FontAwesomeIcon icon={faStar} className="text-white bg-review1 p-4 text-3xl" />
+        </div>
+        <div><p className='text-3xl mr-10 font-semibold '>Review</p></div>
+    </div>
+    <p className='border-b-2 -mt-1 border-gray-600 w-full '></p>
+    <div className='flex flex-row justify-start mt-3 px-3'>
+        <img src={userimg} alt="" className='w-10 h-10 rounded-full'/>
+        <h1 className=' text-gray-600 text-xs ml-3 mt-1'> <span className='font-bold'>JHON SMITH<br /> </span>
+        CUSTOMER, AGENT</h1>
+    </div>
+    <p className='mt-8  px-6 text-gray-600 mb-10'>
+    Give your company a faster, more agile
+way to work with freelancers and
+contractors. Find contract and pay yor
+external workforce in one click, eith
+100% compliance
+    </p>
 
-  
+    </div>
+              {/*2rd review*/}
 
+    <div className='shadow-2xl'>
+    <div className='flex flex-rows justify-between items-center'>
+        <div >
+        <FontAwesomeIcon icon={faStar} className="text-white bg-review2 p-4 text-3xl" />
+        </div>
+        <div><p className='text-3xl mr-10 font-semibold '>Review</p></div>
+    </div>
+    <p className='border-b-2 -mt-1 border-gray-600 w-full '></p>
+    <div className='flex flex-row justify-start mt-3 px-3'>
+        <img src={userimg} alt="" className='w-10 h-10 rounded-full'/>
+        <h1 className=' text-gray-600 text-xs ml-3 mt-1'> <span className='font-bold'>JHON SMITH <br /> </span>
+        CUSTOMER, AGENT</h1>
+    </div>
+    <p className='mt-8  px-6 text-gray-600 mb-10'>
+    Give your company a faster, more agile
+way to work with freelancers and
+contractors. Find contract and pay yor
+external workforce in one click, eith
+100% compliance
+    </p>
+
+    </div>
+          {/*3rd review*/}
+    <div className='shadow-2xl'>
+    <div className='flex flex-rows justify-between items-center'>
+        <div >
+        <FontAwesomeIcon icon={faStar} className="text-white bg-review1 p-4 text-3xl" />
+        </div>
+        <div><p className='text-3xl mr-10 font-semibold'>Review</p></div>
+    </div>
+    <p className='border-b-2 -mt-1 border-gray-600 w-full '></p>
+    <div className='flex flex-row justify-start mt-3 px-3'>
+        <img src={userimg} alt="" className='w-10 h-10 rounded-full'/>
+        <h1 className=' text-gray-600 text-xs ml-3 mt-1'> <span className='font-bold'>JHON SMITH <br /> </span>
+        CUSTOMER, AGENT</h1>
+    </div>
+    <p className='mt-8  px-6 text-gray-600 mb-10'>
+    Give your company a faster, more agile
+way to work with freelancers and
+contractors. Find contract and pay yor
+external workforce in one click, eith
+100% compliance
+    </p>
+
+    </div>
+</div>
+
+       {/*text section */}
+<div className='bg-primary1 px-16 mx-12 py-8 mb-36'>
+  <h1 className='font-bold text-2xl mb-5'>THAT LOT</h1>
+  <p className='text-2xl mb-6'>
+    Give your company a faster, more agile way to work with freelancers and contractors. Find contract <br /> and
+    pay your external workforce in one click, with 100% compliance.
+  </p>
+  <div className='flex justify-end'>
+    <button className='text-white bg-black px-8 py-4'>BOOK A DEMO</button>
+  </div>
+</div>
 
 
 

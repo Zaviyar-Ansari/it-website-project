@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <div>
@@ -8,10 +8,10 @@ const Navbar = () => {
 
     <div>
         <ul className="flex flex-row justify-evenly gap-8 py-2">
-            <li>PRODUCTS</li>
-            <li>WHY XYZ</li>
-            <li>RESOURCES</li>
-            <li>COMPANY</li>
+            <Link to='/'><li>PRODUCTS</li></Link>
+            <Link to='/service'><li>WHY XYZ</li></Link>
+            <Link to='/webdev'><li>RESOURCES</li></Link>
+            <Link to='/about'><li>COMPANY</li></Link>
             <li>PRICING</li>
         </ul>
     </div>
