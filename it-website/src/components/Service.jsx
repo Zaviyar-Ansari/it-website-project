@@ -15,7 +15,7 @@ const Service = () => {
         {/*main image text section */}
         <div className='absolute top-60 ml-10 left-0 text-white w-[130vh] '>
             <h1 className='text-left text-7xl font-bold mb-20'>OUR SERVICES</h1>
-            <p className='text-xl mb-20 text-left'>Delivering cutting-edge digital solutions tailored to your business needs.</p>
+            <p className='text-xl mb-20 text-left text-gray-400'>Delivering cutting-edge digital solutions tailored to your business needs.</p>
 
             <div className='flex flex-row justify-left ml-20 gap-20'>
                 <btton className='bg-primary py-3 px-8 text-xl'>
@@ -96,7 +96,7 @@ const Service = () => {
         {/*images and text section*/}
     <div className="bg-black pt-44 w-full mb-60 pb-20">
          {/*text section */}
-<div className='bg-primary1 px-16 mx-12 py-8 mb-20'>
+<div className='bg-primary1 px-16 mx-10 py-8 mb-20'>
   <h1 className='font-bold text-2xl mb-5'>THAT LOT</h1>
   <p className='text-2xl mb-6'>
     Give your company a faster, more agile way to work with freelancers and contractors. Find contract <br /> and
@@ -108,7 +108,7 @@ const Service = () => {
 </div>
         <div className='flex flex-row justify-evenly text-center gap-10'>
         <p className='text-white flex flex-col text-3xl gap-y-4 font-bold' ><FontAwesomeIcon icon={faCog} className="text-4xl text-white flex flex-col" />  12 Services</p>
-        <p className='text-white flex flex-col text-3xl gap-y-4 font-bold'> <FontAwesomeIcon icon={faBolt} className="text-5xl text-white" />200+ Projects </p> 
+        <p className='text-white flex flex-col text-3xl gap-y-4 font-bold'> <FontAwesomeIcon icon={faBolt} className="text-4xl text-white" />200+ Projects </p> 
         <p className='text-white flex flex-col text-3xl gap-y-4 font-bold'><FontAwesomeIcon icon={faMoneyBillWave} className="text-4xl t ext-white" /> $200k+ Revenue </p> 
         <p className='text-white flex flex-col text-3xl gap-y-4 font-bold'> <FontAwesomeIcon icon={faUser} className="text-4xl text-white" />300+ Happy Clients</p> 
     </div>

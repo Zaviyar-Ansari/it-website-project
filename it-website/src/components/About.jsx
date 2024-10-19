@@ -56,7 +56,7 @@ const About = () => {
         </div>
         
          {/*Text section*/}
-   <div className='font-semibold ml-10 text-5xl mt-0 mb-5 flex justify-center'>
+   <div className='font-semibold ml-10 text-5xl mt-10 mb-5 flex justify-center'>
     <h1>Welcome</h1>
     </div>
     {/*text undrline */}
@@ -96,8 +96,8 @@ enim donec in. Diam pretium odio tortor amet amet molestie enim aliquam massa vi
 
      {/*our team section*/}
     <div class="font-sans">
-            <div class="lg:max-w-5xl max-w-3xl mx-auto my-20">
-                <div class="grid lg:grid-cols-4 md:grid-cols-3 gap-6 max-md:justify-center mt-12">
+            <div class="lg:max-w-7xl max-w-4xl mx-auto my-20">
+                <div class="grid lg:grid-cols-4 md:grid-cols-3 gap-10 max-md:justify-evenly mt-12">
                     <div class="border  overflow-hidden bg-black">
                         <img src={team} class="w-full h-56 object-cover rounded-bl-2xl rounded-br-2xl" />
 
@@ -167,10 +167,10 @@ enim donec in. Diam pretium odio tortor amet amet molestie enim aliquam massa vi
 
       {/*imgae and test section*/}
       <div className='flex flex-row p-10'>
-        <div className='w-1/2'>
+        <div className='w-[100vh]'>
             <img src={mission1} alt="" className='w-full h-full'/>
         </div>
-        <div className='w-1/2 px-10'>
+        <div className='w-[90vh] px-10'>
         <div className='font-semibold text-4xl mt-0 mb-5 flex justify-start'>
     <h1>Our Mission</h1>
     </div>
@@ -197,7 +197,7 @@ non pretium fringilla arcu. Nunc quis velit lacus sit.</p>
     </div>
       {/*imgae and test section*/}
       <div className='flex flex-row p-10 mb-28'>
-        <div className='w-1/2 px-10'>
+        <div className='w-[90vh] px-10'>
         <div className='font-semibold text-4xl mt-0 mb-5 flex justify-start'>
     <h1>Our Goals</h1>
     </div>
@@ -220,7 +220,7 @@ consequat. Feugiat gravida justo massa et hac. Varius
 sed orci tortor et nibh. Pretium leo donec tortor nibh
 non pretium fringilla arcu. Nunc quis velit lacus sit.</p>
         </div>
-        <div className='w-1/2'>
+        <div className='w-[100vh]'>
             <img src={mission2} alt="" className='w-full h-full'/>
         </div>
     </div>
