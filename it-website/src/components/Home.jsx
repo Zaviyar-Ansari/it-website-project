@@ -153,7 +153,7 @@ const Home = () => {
         </div>
         
     </div>
-
+ 
    {/*text section */}
 <div className='bg-primary1 px-16 mx-12 py-8 mb-20'>
   <h1 className='font-bold text-2xl mb-5'>THAT LOT</h1>
