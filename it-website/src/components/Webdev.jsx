@@ -30,9 +30,9 @@ const Webdev = () => {
         {/*main image text section */}
         <div className='absolute top-60 ml-20 left-0 text-white w-[130vh] '>
             <h1 className='text-left text-7xl font-bold mb-20'>WEB <br /> <span className='ml-10'> DEVELOPMENT</span></h1>
-            <p className='text-xl mb-20 text-left'>Delivering cutting-edge digital solutions tailored to your business needs.</p>
+            <p className='text-xl mb-20 text-left text-gray-400'>Delivering cutting-edge digital solutions tailored to your business needs.</p>
 
-            <div className='flex flex-row justify-left gap-20'>
+            <div className='flex flex-row justify-left gap-20 ml-20'>
                 <btton className='bg-primary py-3 px-8 text-xl'>
                     Buook a Demo
                 </btton>
@@ -65,7 +65,7 @@ const Webdev = () => {
     </div>
     </div>
 
-    <div className='flex justify-center px-28'>
+    <div className='flex justify-center px-28 mb-20'>
         <p className='text-left text-xl '>
         Lorem ipsum dolor sit amet consectetur. Nibh non viverra purus nunc. In suscipit eget tristique pretium. Congue
 quam diam enim mi pellentesque augue arcu. Praesent aliquam dapibus habitant mattis porta lorem porttitor
@@ -140,12 +140,12 @@ lacus commodo.Elementum elementum orci etiam fames venenatis sed <span className
     </div>
 
     {/*paragraph text*/}
-    <div className='flex justify-center text-white my-10'>
+    <div className='flex justify-center text-white mt-10 mb-44 '>
         <p>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet</p>
     </div>
 
      {/*boxes section */}
-       <div className='flex flex-row justify-center space-x-6 px-20'>
+       <div className='flex flex-row justify-center space-x-6 px-20 mb-32'>
         <div className='text-center bg-white p-6 '>
             <h1 className='text-xl font-semibold mb-6'>Discovery</h1>
             <p className='text-sm text-gray-500'>Lorem ipsum dolor sit amet consectetur. Tortor
@@ -303,7 +303,7 @@ O            rci turpis magna mauris elit aliquam id arcu viverra.
 
     
      {/*Text section*/}
-   <div className='font-semibold ml-10 text-5xl mt-0 mb-5 flex justify-center'>
+   <div className='font-semibold ml-10 text-5xl mb-5 flex justify-center mt-24'>
     <h1>FAQ's</h1>
     </div>
     {/*text undrline */}

@@ -57,7 +57,7 @@ const Home = () => {
     </div>
 
     {/*text section */}
-    <div className='bg-primary1 px-16 mx-20 py-8'>
+    <div className='bg-primary1 px-16 mx-10 py-8'>
         <h1 className='font-bold text-2xl mb-5'>THAT LOT</h1>
         <p className='text-2xl mb-6'>Give your company a faster, more agile way to work with freelancers and contractors. Find contract <br /> and
         pay yor external workforce in one click, eith 100% compliance.</p>
@@ -78,10 +78,10 @@ const Home = () => {
 
     {/*imgae and test section*/}
     <div className='flex flex-row p-10'>
-        <div className='w-1/2'>
-            <img src={person1} alt=""/>
+        <div className='w-[110vh]'>
+            <img src={person1} alt="" className=''/>
         </div>
-        <div className='w-1/2 px-10'>
+        <div className='w-[90vh] px-10'>
             <h1 className='text-4xl font-extrabold mb-10'>The Fastest Hiring And Payments </h1>
             <p className='text-2xl font-medium mb-10'>We specialize in delivering cutting-edge IT services
             tailored to meet the unique needs of businesses across
@@ -105,7 +105,7 @@ const Home = () => {
 
     {/*imgae and test section*/}
     <div className='flex flex-row p-10'>
-        <div className='w-1/2 px-10'>
+        <div className='w-[90vh] mr-10'>
             <h1 className='text-4xl font-extrabold mb-10'>The Fastest Hiring And Payments </h1>
             <p className='text-2xl font-medium mb-10'>We specialize in delivering cutting-edge IT services
             tailored to meet the unique needs of businesses across
@@ -123,17 +123,17 @@ const Home = () => {
             <p> Pay your external workforce in one click.</p>
             <p className='border-b-2 border-black w-1/2 '></p>
         </div>
-        <div className='w-1/2'>
+        <div className='w-[110vh]'>
             <img src={person2} alt="" />
         </div>
     </div>
 
     {/*imgae and test section*/}
     <div className='flex flex-row p-10'>
-        <div className='w-1/2'>
+        <div className='w-[110vh]'>
             <img src={person3} alt="" />
         </div>
-        <div className='w-1/2 px-10'>
+        <div className='w-[90vh] px-10'>
             <h1 className='text-4xl font-extrabold mb-10'>The Fastest Hiring And Payments </h1>
             <p className='text-2xl font-medium mb-10'>We specialize in delivering cutting-edge IT services
             tailored to meet the unique needs of businesses across
@@ -155,7 +155,7 @@ const Home = () => {
     </div>
 
    {/*text section */}
-<div className='bg-primary1 px-16 mx-12 py-8 mb-20'>
+<div className='bg-primary1 px-16 mx-10 py-8 mb-20'>
   <h1 className='font-bold text-2xl mb-5'>THAT LOT</h1>
   <p className='text-2xl mb-6'>
     Give your company a faster, more agile way to work with freelancers and contractors. Find contract <br /> and
@@ -187,9 +187,9 @@ foster innovation.</h1>
         </div>
 
         <div className='flex flex-row justify-evenly text-center gap-10'>
-        <p className='text-white flex flex-col text-3xl gap-y-4 font-bold' ><FontAwesomeIcon icon={faCog} className="text-4xl text-white flex flex-col" />  12 Services</p>
-        <p className='text-white flex flex-col text-3xl gap-y-4 font-bold'> <FontAwesomeIcon icon={faBolt} className="text-5xl text-white" />200+ Projects </p> 
-        <p className='text-white flex flex-col text-3xl gap-y-4 font-bold'><FontAwesomeIcon icon={faMoneyBillWave} className="text-4xl t ext-white" /> $200k+ Revenue </p> 
+        <p className='text-white flex flex-col text-3xl gap-y-4 font-bold' ><FontAwesomeIcon icon={faCog} className="text-4xl text-white flex flex-col"/>12 Services</p>
+        <p className='text-white flex flex-col text-3xl gap-y-4 font-bold'> <FontAwesomeIcon icon={faBolt} className="text-4xl text-white"/>200+ Projects</p> 
+        <p className='text-white flex flex-col text-3xl gap-y-4 font-bold'><FontAwesomeIcon icon={faMoneyBillWave} className="text-4xl t ext-white"/>$200k+ Revenue</p> 
         <p className='text-white flex flex-col text-3xl gap-y-4 font-bold'> <FontAwesomeIcon icon={faUser} className="text-4xl text-white" />300+ Happy Clients</p> 
     </div>
     
@@ -292,7 +292,7 @@ external workforce in one click, eith
 </div>
 
        {/*text section */}
-<div className='bg-primary1 px-16 mx-12 py-8 mb-36'>
+<div className='bg-primary1 px-16 mx-10 py-8 mb-36'>
   <h1 className='font-bold text-2xl mb-5'>THAT LOT</h1>
   <p className='text-2xl mb-6'>
     Give your company a faster, more agile way to work with freelancers and contractors. Find contract <br /> and
